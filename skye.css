@@ -1,0 +1,142 @@
+* {
+margin: 0;
+padding: 0;
+list-style: none;
+box-sizing: border-box;
+font-family: "Nunito", sans-serif;
+text-decoration: none;
+  }
+
+body {
+min-height: 100vh;
+min-width: 100vw;
+background-color: azure;
+}
+
+#container{
+    padding: 20px;
+    background-color: blueviolet;
+}
+
+.titlebox {
+display: flex;
+flex-direction: column;
+margin-bottom: 30px;
+
+}
+
+img {
+    width: 10%;
+}
+
+.imagebox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+}
+
+
+
+form {
+    
+}
+
+.namefield{
+    margin-top: 25px;
+}
+
+.namebox{
+    margin-top: 10px;
+}
+.birth {
+    
+}
+
+input {
+    /* display: inline-block; */
+  /* margin-top: 25px; */
+  height: 25px;
+  padding: 25px;
+  width: 30vw;
+  border-radius: 5px;
+  border: none;
+  background-color: lightblue;
+  font-weight: 500;
+  color: black;
+  outline: none;
+  margin-bottom: 30px;
+  margin-right: 10px;
+}
+
+input[type=text],
+input[type=date] {
+width: 30vw;
+}
+
+select{
+  width:15vw;
+  height: 45px;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+}
+
+select option{
+    color: black;
+}
+
+.extras {
+    display: flex;
+    gap: 100px;
+    margin-bottom: 30px;
+}
+
+.r-text{
+    margin-right: 10px;
+}
+.boxfile {
+    display: flex; 
+}
+
+.boxfile p{
+    margin-bottom: 10px;
+}
+.services{
+    display: flex;
+}
+.services p{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.accountbox h4{
+    margin-bottom: 10px;
+}
+
+.bvnbox{
+    display: flex;
+}
+.bvnbox p{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.uploadbox h4{
+    margin bottom: 10px;
+}
+button {
+    margin-top: 40px;
+   height: 35px;
+  padding: 20px;
+  width: 25vw;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background-color: black;
+  margin-bottom: 30px;
+}
